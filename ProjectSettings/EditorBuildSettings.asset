@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Serron_Lighting.unity
+    guid: d14cf0c72068864409d8da8dba724805
   m_configObjects: {}
