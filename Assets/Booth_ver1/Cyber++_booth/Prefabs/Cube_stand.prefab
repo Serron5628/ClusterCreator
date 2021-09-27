@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 7854418483135744366}
   - component: {fileID: 1953808391868794889}
   - component: {fileID: 6450349277866400556}
+  - component: {fileID: -1634615857757370288}
   m_Layer: 14
   m_Name: Cube_stand
   m_TagString: Untagged
@@ -208,6 +209,32 @@ MonoBehaviour:
   key:
     target: 2
     key: CyberItemAllDestroy
+--- !u!114 &-1634615857757370288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8641377737545898397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5a9785e42671427a8761e148889f041, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 8641377737545898387}
+  key:
+    target: 0
+    key: CyberCubeModelDeath
+  delayTimeSeconds: 15
+  triggers:
+  - target: 0
+    specifiedTargetItem: {fileID: 0}
+    key: destroy
+    type: 0
+    value:
+      boolValue: 0
+      floatValue: 0
+      integerValue: 0
 --- !u!1001 &6573515685327355575
 PrefabInstance:
   m_ObjectHideFlags: 0
