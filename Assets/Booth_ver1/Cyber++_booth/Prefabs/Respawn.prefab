@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 4283801796414470862}
   - component: {fileID: 4283801796414470861}
   - component: {fileID: 4283801796414470863}
-  - component: {fileID: 4283801796414470858}
   - component: {fileID: 4283801796414470860}
   - component: {fileID: 413751289005143746}
+  - component: {fileID: 4283801796414470858}
   m_Layer: 0
   m_Name: Respawn
   m_TagString: Untagged
@@ -88,27 +88,6 @@ MonoBehaviour:
       boolValue: 0
       floatValue: 0
       integerValue: 0
---- !u!114 &4283801796414470858
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4283801796414470856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 4283801796414470861}
-  key:
-    target: 0
-    key: respawn
-  itemTemplate: {fileID: 4102599946128126242, guid: c7c9ce6e6a9dfa74a9464d4b6b514f3c,
-    type: 3}
-  itemTemplateId:
-    value: 0
-  spawnPoint: {fileID: 4283801796414470859}
 --- !u!114 &4283801796414470860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,3 +140,24 @@ MonoBehaviour:
       boolValue: 0
       floatValue: 0
       integerValue: 0
+--- !u!114 &4283801796414470858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4283801796414470856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 4283801796414470861}
+  key:
+    target: 0
+    key: respawn
+  itemTemplate: {fileID: 4102599946128126242, guid: c7c9ce6e6a9dfa74a9464d4b6b514f3c,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 4283801796414470859}
