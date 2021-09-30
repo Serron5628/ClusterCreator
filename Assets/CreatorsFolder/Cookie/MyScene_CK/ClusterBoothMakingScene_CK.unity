@@ -21965,6 +21965,11 @@ PrefabInstance:
       propertyPath: id.value
       value: 3116583320701994158
       objectReference: {fileID: 0}
+    - target: {fileID: 3226279001583467651, guid: a85e3d470807f499c80728fb93c1e311,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3226279001583467652, guid: a85e3d470807f499c80728fb93c1e311,
         type: 3}
       propertyPath: id.value
