@@ -73168,6 +73168,9 @@ GameObject:
   - component: {fileID: 1293148104}
   - component: {fileID: 1293148103}
   - component: {fileID: 1293148102}
+  - component: {fileID: 1293148108}
+  - component: {fileID: 1293148107}
+  - component: {fileID: 1293148106}
   m_Layer: 0
   m_Name: WarpPoint
   m_TagString: Untagged
@@ -77941,6 +77944,61 @@ CapsuleCollider:
   m_Height: 3
   m_Direction: 1
   m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!114 &1293148106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293148100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba507dbcf46b94a9895daa4d46e12805, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1293148107}
+  collisionEventType: 0
+  collisionType: -1
+  triggers:
+  - target: 2
+    specifiedTargetItem: {fileID: 0}
+    key: OCSJumpHeightReset
+    type: 2
+    value:
+      boolValue: 0
+      floatValue: 1
+      integerValue: 0
+--- !u!114 &1293148107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293148100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id:
+    value: 0
+  itemName: OCS_WarpPoint
+--- !u!114 &1293148108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293148100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b388f2ec20ba410780878c01fdbfa289, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key:
+    target: 1
+    key: OCSJumpHeightReset
+    item: {fileID: 0}
 --- !u!1 &1313518995
 GameObject:
   m_ObjectHideFlags: 0
